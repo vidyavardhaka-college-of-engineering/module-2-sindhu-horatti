@@ -3,24 +3,23 @@
 #include<stdio.h>
 int main(){
   int n,flag=0,i,key,a[10],c=0;
-  printf("Enter size of the array,  array elemnts and the key");
+ 
   scanf("%d",&n);
-  //printf("Enter array elements");
-  for(i=0;i<n;i++)//missing code
-  scanf("%d",&a[i]);//missing code
-  //printf("Enter an integer value : ");
+ 
+  for(i=0;i<n;i++)
+   scanf("%d",&a[i]);
   scanf("%d",&key);
   
-    for(i=0;i<n;i++){
-  if(key==a[]) //missing code
+    for(i=0;i<n;i++)
   {
-    //flag=1;
-    c++;
-  }
+    if(key==a[i]) 
+    {
+      flag=1;
+      c++;
     }
-   printf("The number of times the  key element  is repeated  is %d",c);//missing code
-  
-    
+  }
+  if(flag==1)
+   printf("The number of times the  key element  is repeated  is %d",c);
     return(0);
 }
 
